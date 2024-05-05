@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace CutsceneFix
 {
-    [BepInPlugin("tairasoul.vaproxy.cutscenefix", "CutsceneFix", "1.0.0")]
+    [BepInPlugin("tairasoul.vaproxy.cutscenefix", "CutsceneFix", "1.0.1")]
     internal class Plugin : BaseUnityPlugin
     {
         internal static ManualLogSource log;
