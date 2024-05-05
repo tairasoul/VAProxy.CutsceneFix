@@ -54,7 +54,7 @@ namespace CutsceneFix.Patches
                 if (!instance.skip)
                     yield return new WaitForSeconds(instance.Shots[shot].delay[i]);
                 else
-                    yield return null;
+                    yield return new WaitForEndOfFrame();
                 Plugin.log.LogInfo($"Invoking Shots[{shot}].Stuff[{i}].");
                 instance.Shots[shot].Stuff[i].Invoke();
                 Plugin.log.LogInfo($"Invoked Shots[{shot}].Stuff[{i}].");
