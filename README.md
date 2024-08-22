@@ -2,6 +2,8 @@
 
 A simple fix for a minor oversight in the cutscene manager's code.
 
+(still has some small bugs i need to fix! will see how easy itll be to fix ERI cutscene)
+
 # Issue explanation
 
 The original code was always waiting, no matter if you were skipping the cutscene or not.
